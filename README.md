@@ -32,3 +32,15 @@
  ### lets say that i made some changes in the readme file using github website and i also made changes in my local repo
 ### if i'm trying to push changes from local repo to main while the changes from main to local has not been done then it throws a error
 ### to resolve it first pull the main and then push to main from local repo
+### now lets say that many programmers are working on the same project but need to have differnt branches under main branch
+### to check the number of branches git branch
+### creating new branch git branch developerA
+### you can check through git branch
+### developerA has the same code as main will be there
+### how to switch to branch use git checkout developerA
+### now you have made some changes in app.py
+### git add . with commit message 
+### now merge with main so for that change branch to main git checkout main
+### noq merge git merge developerA
+
+### 
