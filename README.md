@@ -19,3 +19,4 @@
 ### now i need to push the my origin to main git push origin main
 ### if i added new file app.py and i need to push it to repo follow same steps first git add . and then git commit and then git push origin main
 ### if i have created new file in main repo i need to to pull it to local repo so i use git pull origin main
+### some changes
