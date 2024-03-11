@@ -20,3 +20,15 @@
 ### if i added new file app.py and i need to push it to repo follow same steps first git add . and then git commit and then git push origin main
 ### if i have created new file in main repo i need to to pull it to local repo so i use git pull origin main
 ### some changes
+### git ignore is used to ignore certain high memory files from pushing it to main repo 
+### create .gitignore file in git and choose template to be python and commit changes and to get that to local repo git pull origin main
+### consider i created my environment with name myenv so it has given python packages and i dont have no need
+ ### to send it to main so inside the .gitignore file i will add myenv/ along with already written venv/ and all other ignorable files
+### and when i use the git add . command myenv will not be added
+### how to clone a repo
+### first create a clone folder and change the currrent directory to that folder cd C:\GIT\clonerepo
+### my repository has a http link in code section copy and paste it after git clone http:link
+###
+ ### lets say that i made some changes in the readme file using github website and i also made changes in my local repo
+### if i'm trying to push changes from local repo to main while the changes from main to local has not been done then it throws a error
+### to resolve it first pull the main and then push to main from local repo
