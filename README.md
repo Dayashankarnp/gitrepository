@@ -26,7 +26,7 @@
  ### to send it to main so inside the .gitignore file i will add myenv/ along with already written venv/ and all other ignorable files
 ### and when i use the git add . command myenv will not be added
 ### how to clone a repo
-### first create a clone folder and change the currrent directory to that folder cd C:\GIT\clonerepo
+### first create a clone folder and in the command prompt change the currrent directory to that folder cd C:\GIT\clonerepo
 ### my repository has a http link in code section copy and paste it after git clone http:link
  ### lets say that i made some changes in the readme file using github website and i also made changes in my local repo
 ### if i'm trying to push changes from local repo to main while the changes from main to local has not been done then it throws a error
